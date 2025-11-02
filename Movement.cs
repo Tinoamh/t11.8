@@ -8,6 +8,7 @@ using UnityEngine.PlayerLoop;
 public class Movement : MonoBehaviour
 {
     [SerializeField]private float speed;
+    
     private Rigidbody2D body;
     private float t1;
     private void Awake()
